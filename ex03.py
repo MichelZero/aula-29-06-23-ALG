@@ -3,7 +3,7 @@
 
 # data: 29/06/2023
 
-# fazer os programas usando o for e o while.
+# fazer o programa usando o while.
 
 # 3 - Programa que imprime a soma de todos os números 
 # pares entre dois números quaisquer, incluindo-os.
