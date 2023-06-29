@@ -5,7 +5,7 @@
 
 # fazer o programa usando o while.
 
-# Escreva um programa que solicite ao usuário 
+# 5 - Escreva um programa que solicite ao usuário 
 # que digite um número e imprima se esse número é primo.
 
 # entrada de dados
