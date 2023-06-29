@@ -3,7 +3,7 @@
 
 # data: 29/06/2023
 
-# faremos os programas usando o for e o while.
+# fazer os programas usando o for e o while.
 
 # 1 - Programa que imprime a quantidade de números pares de 100 até 200, incluindo-os.
 
