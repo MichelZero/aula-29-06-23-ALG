@@ -3,9 +3,9 @@
 
 # data: 29/06/2023
 
-# 9 - fazer o programa usando o while.
+# fazer o programa usando o while.
 
-# Escreva um programa que solicite ao usuário que 
+# 9 - Escreva um programa que solicite ao usuário que 
 # digite uma senha e repita a solicitação até que a 
 # senha digitada seja "senha123".
 

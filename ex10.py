@@ -3,6 +3,8 @@
 
 # data: 29/06/2023
 
+# fazer o programa usando o while.
+
 # 10 - Escreva um programa que solicite ao usuário que digite
 # um número e verifique se é um número perfeito. Um número 
 # perfeito é aquele cuja soma dos seus divisores, excluindo 
