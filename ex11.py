@@ -5,7 +5,7 @@
 
 # fazer o programa usando o while.
 
-# 4 - Programa que calcule o fatorial de um número.
+# 11 - Programa que calcule o fatorial de um número.
 # 0! = 1
 # 1! = 1
 # 2! = 2*1 = 2
@@ -21,6 +21,7 @@ fatorial = 1
 
 # processamento
 while numero > 0:
+    print(f"{numero}*{fatorial}={numero*fatorial}")
     fatorial *= numero # fatorial = fatorial * numero
     numero -= 1 # numero = numero - 1
     

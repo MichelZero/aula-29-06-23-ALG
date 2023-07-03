@@ -6,7 +6,7 @@
 # fazer o programa usando o while.
 
 # 7 - Escreva um programa que solicite ao usuário 
-# que digite uma sequência de números e calcule
+# que digite uma sequência de números e calcule a média
 
 # entrada de dados
 num = int(input("Digite um número (ou zero para encerrar): "))

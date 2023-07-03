@@ -19,9 +19,11 @@ qtdPares = 0
 # processamento
 # tratamento para o valor1 ser sempre menor que o valor2
 if valor1 > valor2: # se o valor1 for maior que o valor2
+    temp1 = valor2 # para usar no print de saída
     aux = valor1 # variável auxiliar para armazenar o valor1
     valor1 = valor2 # valor1 recebe o valor2
     valor2 = aux # valor2 recebe o valor1
+    
     
 while valor1 <= valor2:
     if valor1 % 2 == 0:
@@ -29,4 +31,4 @@ while valor1 <= valor2:
     valor1 += 1
 
 # saída de dados
-print(f"A quantidade de números pares entre {valor1} e {valor2} é: {qtdPares}")
+print(f"A quantidade de números pares entre {temp1} e {valor2} é: {qtdPares}")

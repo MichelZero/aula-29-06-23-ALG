@@ -17,4 +17,4 @@ soma = 0
 while num >= 0:
     soma += num
     num = int(input("Digite um número positivo (ou negativo para encerrar): "))
-print(soma)
+print(f"a soma dos números foi de {soma}")

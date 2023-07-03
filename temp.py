@@ -1,25 +1,29 @@
-# 1
-print("1 - Programa que imprime a quantidade de números pares de 100 até 200, incluindo-os.")
+#
+# autores: Michel e Cristiano
 
-valor1 = 100
-valor2 = 200
+# data: 29/06/2023
 
-while valor1 <= valor2:
-    if valor1 % 2 == 0:
-        print(valor1, end=" ")
-    valor1 += 1
+# fazer o programa usando o while.
+
+# 4 - Programa que calcule o fatorial de um número.
+# 0! = 1
+# 1! = 1
+# 2! = 2*1 = 2
+# 3! = 3*2*1 = 6
+# 4! = 4*3*2*1 = 24
+# 5! = 5*4*3*2*1 = 120
+
+# entrada de dados
+numero = int(input("Digite um número: "))
+
+# variável para armazenar o fatorial
+fatorial = 1
+
+# processamento
+while numero > 0:
+    print(f"{numero}*{fatorial}={numero*fatorial}")
+    fatorial *= numero # fatorial = fatorial * numero
+    numero -= 1 # numero = numero - 1
     
-# 2
-print()
-print("2 - Programa que imprime a soma dos números ímpares de 100 até 200, incluindo-os.")
-
-valor1 = 100
-valor2 = 200
-somaImpar = 0
-
-while valor1 <= valor2:
-    if valor1 % 2 != 0:
-        somaImpar += valor1
-    valor1 += 1
-    
-print(f"A soma dos números ímpares de 100 até 200 é: {somaImpar}")
+# saída de dados
+print(f"O fatorial é: {fatorial}")

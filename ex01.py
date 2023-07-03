@@ -5,9 +5,11 @@
 
 # fazer os programas usando o for e o while.
 
-# 1 - Programa que imprime a quantidade de números pares de 100 até 200, incluindo-os.
+# 1 - Programa que imprime a quantidade de números 
+# pares de 100 até 200, incluindo-os.
 
-# 2 - Programa que imprime a soma dos números ímpares de 100 até 200, incluindo-os.
+# 2 - Programa que imprime a soma dos números 
+# ímpares de 100 até 200, incluindo-os.
 
 # usando o for
 # 1
@@ -57,6 +59,24 @@ somaImpar = 0
 while valor1 <= valor2:
     if valor1 % 2 != 0:
         somaImpar += valor1
-    valor1 += 1
+    valor1 += 1 
     
 print(f"A soma dos números ímpares de 100 até 200 é: {somaImpar}")
+
+
+# outra forma de fazer com o while
+# 1
+print("1 - Programa que imprime a quantidade de números pares de 100 até 200, incluindo-os.")
+
+valor1 = 100
+valor2 = 200
+qtd = 0
+
+while valor1 <= valor2:
+    if valor1 % 2 == 0:
+        print(valor1, end=" ")
+        qtd += 1
+    valor1 += 1
+    
+print()
+print(f"a quantidade de pares foi {qtd}")
