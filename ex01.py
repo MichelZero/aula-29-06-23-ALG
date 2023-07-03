@@ -47,6 +47,7 @@ while valor1 <= valor2:
     valor1 += 1
     
 # 2
+print()
 print("2 - Programa que imprime a soma dos números ímpares de 100 até 200, incluindo-os.")
 
 valor1 = 100
