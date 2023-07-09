@@ -15,6 +15,7 @@ valor2 = int(input("Digite o segundo valor: "))
 # variável para armazenar a soma dos números pares
 # entre os dois valores
 somaPares = 0
+temp1 = 0
 
 # processamento
 # tratamento para o valor1 ser sempre menor que o valor2

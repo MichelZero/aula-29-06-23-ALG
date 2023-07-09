@@ -46,3 +46,5 @@ class PessoaIMC():
             self.situacao = 'você está flutuando'
             
         return self.situacao
+    
+    
