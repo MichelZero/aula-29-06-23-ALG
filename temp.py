@@ -48,3 +48,4 @@ class PessoaIMC():
         return self.situacao
     
     
+    # escreva um programa que encontre os termo   de um número.
